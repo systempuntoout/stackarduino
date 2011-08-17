@@ -1,0 +1,20 @@
+body {
+	margin:0;
+	padding:0;
+	border:0;			/* This removes the border around the viewport in old versions of IE */
+	width:100%;
+	background:#fff;
+	min-width:600px;    	/* Minimum width of layout - remove line if not required */
+					/* The min-width property does not work in old versions of Internet Explorer */
+	font-size:90%;
+	font-family:Arial,Liberation Sans,DejaVu Sans,sans-serif;
+}
+
+#oops{
+    margin:0 auto;
+    width:60%;
+    text-align:center;
+    height:400px;
+    margin-top:120px;
+    font-weight:bold;
+}
